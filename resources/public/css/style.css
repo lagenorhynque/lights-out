@@ -1,2 +1,11 @@
-/* some style */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.item {
+  flex-basis: 20%;
+  text-align: center;
+}
